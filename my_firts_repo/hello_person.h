@@ -5,4 +5,5 @@
 
 using namespace std;
 
-string Hello_person(string name);
+void Hello_person(string name);
+
