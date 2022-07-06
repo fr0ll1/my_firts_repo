@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include "hello_person.h"
+#include "vector.h"
 
 using namespace std;
 
@@ -11,5 +12,6 @@ int main()
     cout << "¬ведите им€ \n";
     cin >> name;
     Hello_person(name);
+    Vector();
     return 0;
 }
