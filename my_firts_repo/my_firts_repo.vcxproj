@@ -129,11 +129,15 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="hello_person.cpp" />
-    <ClCompile Include="vector.cpp" />
+    <ClCompile Include="VectorCin.cpp" />
+    <ClCompile Include="VectorCout.cpp" />
+    <ClCompile Include="VectorRedactor.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="vector.h" />
+    <ClInclude Include="VectorRedactor.h" />
     <ClInclude Include="hello_person.h" />
+    <ClInclude Include="VectorCin.h" />
+    <ClInclude Include="VectorCout.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

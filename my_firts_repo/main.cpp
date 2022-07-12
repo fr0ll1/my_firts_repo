@@ -1,7 +1,9 @@
 #include <iostream>
 #include <string>
 #include "hello_person.h"
-#include "vector.h"
+#include "VectorRedactor.h"
+#include "VectorCin.h"
+#include "VectorCout.h"
 
 using namespace std;
 
@@ -12,6 +14,8 @@ int main()
     cout << "¬ведите им€ \n";
     cin >> name;
     Hello_person(name);
-    Vector();
+    VectorCin();
+    VectorRedactor();
+    VectorCout();
     return 0;
 }
